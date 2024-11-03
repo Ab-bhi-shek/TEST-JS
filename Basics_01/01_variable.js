@@ -6,6 +6,6 @@ accountState=""
 // accountId = "2"
 // accountName ="Ashish sharma"
 // accountEmail ="ashish.google.com"
-// accountCity="Delhi"
+// accountCity ="Delhi"
 
 console.log([accountId,accountEmail,accountName,accountCity,accountState]);
