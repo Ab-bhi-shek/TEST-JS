@@ -1,23 +1,35 @@
 
-const mySym = Symbol ("key1")
+// const mySym = Symbol ("key1")
 
-const jsUser = {
-    name: "Abhi",
-    "fullName" : "Abhishek Kumar",
-    mySym: "myKey1",
-    age: 19,
-    email: "abhi@google.com",
-    location: "Meerut",
-    logIn: "True",
-    lastLogIn: ["Monday", "Tuesday"]
-}
+// const jsUser = {
+//     name: "Abhi",
+//     "fullName" : "Abhishek Kumar",
+//     mySym: "myKey1",
+//     age: 19,
+//     email: "abhi@google.com",
+//     location: "Meerut",
+//     logIn: "True",
+//     lastLogIn: ["Monday", "Tuesday"]
+// }
 
-console.log(jsUser.fullName);
-console.log(jsUser["fullName"]);
-console.log(jsUser.mySym);
-console.log(typeof mySym);
+// console.log(jsUser.fullName);
+// console.log(jsUser["fullName"]);
+// console.log(jsUser.mySym);
+// console.log(typeof mySym);
 
-jsUser.fullName = "karan kumar"
-console.log(jsUser.fullName);
+// jsUser.fullName = "karan kumar"
+// console.log(jsUser.fullName);
 
+
+const course = {
+    coursename: "Abhi",
+    price: "999",
+    courseInstructor: "hitesh"
+    }
+    
+    // course.courseInstructor
+
+    const {courseInstructor:teacher} = course
+    console.log(teacher);
+    
 
