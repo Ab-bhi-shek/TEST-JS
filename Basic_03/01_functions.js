@@ -33,8 +33,37 @@
 
 
 
-function loginUserMessage(username){
-    return '${username} just login'
+// function loginUserMessage(username){
+//     return '${username} just login'
 
+// }
+// console.log(loginUserMessage("abhishek"))
+
+
+
+// function cartCalculation (...num1){
+//     return num1
+
+// }
+// console.log(cartCalculation(200,432,4565,345,765,123,676));
+
+
+
+// const user ={
+// usename : "Abhi",
+// price: 199
+
+// }
+
+// function handleObject(anyobject){
+//     console.log('Username is ${username} nasd price is ${199}');
+    
+// }
+// handleObject(user)
+
+
+const newArray = [300, 342, 593]
+function returnSecondValue(getArray){
+    return getArray [0]
 }
-console.log(loginUserMessage("abhishek"))
+console.log(returnSecondValue(newArray));
